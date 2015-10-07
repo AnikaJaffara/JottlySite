@@ -1,0 +1,33 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MAIN CONTENT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/	
+.container
+	display: inline;
+
+.ContentOne
+	@extend %covered;
+	background: transparent url('#{$path-img}/CollabCompu.png') no-repeat center center;
+	height: $fh;
+
+.ContentOne .row
+	margin-bottom: 0;
+
+.ContentTwo
+	@extend %covered;
+	background: url('#{$path-img}/LiveCollab.png');
+	height: $fh;
+
+.ContentThree
+	@extend %covered;
+	background: url('#{$path-img}/CollabDesign.png');
+	height: $fh;
+
+.ContentFour
+	@extend %covered;
+	background: linear-gradient(to bottom, transparent, $cream 100%), url('#{$path-img}/FunCollab.png');
+	background-position: 50% 20%;
+	text-align: center;
+
+.Feature
+	background-color: rgba(229, 223, 198, .6);
+	height: $fh;

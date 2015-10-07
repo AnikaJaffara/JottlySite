@@ -1,0 +1,104 @@
+/* Jott.ly Stylesheet
+    
+  Purpose: Bloc 
+  Author: Anika Jaffara
+  Version: 2.0.0
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GLOBAL IMPORTS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@import 'base/index';
+@import 'layout/index';
+@import 'components/index';
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+MEDIA QUERIES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media (max-width: 965px) {
+	.Email form input {
+	    width: 60rem;
+	    border-radius: 4px;
+	    padding: 1rem;
+	}
+}
+
+@media (max-width: 810px) {
+	.HeaderContent {
+		text-align: center;
+		margin-top: 20%;
+	}
+	.button {
+		margin-top: 8%;
+	}
+}
+
+@media (max-width: 775px) {
+	h5 {
+		display: none;
+	}
+	h3 {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.Email form input {
+	    width: 45rem;
+	}
+	.Email form input {
+	    width: 42rem;
+	    border-radius: 4px;
+	    padding: 1rem;
+	}
+}
+
+@media (min-width: 620px) {
+	.AppMock {
+		margin-top: 22%;
+		margin-bottom: -2.3%;
+	}
+	.AppMock2 {
+		display: none;
+	}
+}
+@media (max-width: 620px) {
+	.AppMock {
+		display: none;
+		margin-top: 45%;
+		margin-bottom: -2.3%;
+	}
+	.AppMock2 { 
+		display: inline-block;
+		margin-top: 45%;
+		margin-bottom: -2.3%;
+	}
+}
+
+@media (max-width: 530px) {
+	h1 {
+		font-size: 6rem;
+	}
+	.Tagline {
+		font-size: 2.8rem;
+	}
+	h3 {
+		font-size: 2.4rem;
+	}
+	.SocialLinks ul li a {
+		padding: 2rem;
+	}
+	.HeroHeader {
+		max-height: 650px;
+	}
+}
+
+@media (max-width: 450) {
+	.Tagline {
+		font-size: 2.8rem;
+	}
+	.SocialLinks ul li a {
+	padding: 1.5rem;
+	}
+}

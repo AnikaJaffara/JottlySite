@@ -1,0 +1,64 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+GLOBALS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body
+	background: $cream;
+	margin: 0;
+	font-size: 1em;
+	font-family: $stack-sans-serif;
+	-moz-box-sizing: border-box;
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FORMS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+form
+	background-color: rgba(127,124,110, .3);
+    text-align: center;
+    padding: 1.5% 0 1%;
+    border-radius: 10px;
+
+.Email
+    padding: 1% 0 1.5%;
+
+.Email form
+    margin: 0;
+
+.Email form input
+    display: inline;
+    width: 75rem;
+    border-radius: 4px;
+    padding: 1rem;
+
+.Email form button
+  color: #fff;
+	font-size: 1.5rem;
+	background: $red;
+	margin-top: 1.5%;
+	margin-left: 1.5%;
+	padding-top: .5%;
+	padding-bottom: 3.6%;
+	box-shadow: 0 8px 16px -8px rgba(0, 0, 0, .8);
+	border: none;
+
+input
+	font-size: 2em;
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SOCIAL MEDIA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.Social
+
+.SocialLinks ul li
+	list-style-type: none;
+	display: inline-block;
+
+.SocialLinks ul li a
+	color: #fff;
+	text-decoration: none;
+	font-size: 4rem;
+	font-weight: 500;
+	display: inline-block;
+	padding: 4rem;
+	margin: auto;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);

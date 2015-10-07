@@ -1,0 +1,28 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+HEADER
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.HeroHeader
+	@extend %covered;
+	background-position: 50% 20%;
+	background: url('#{$path-img}/hero.png') no-repeat 50% 40%;
+	height: 100vh;
+
+.HeaderNav ul li
+	list-style-type: none;
+	margin-top: 2%;
+	margin-right: 5%;
+	float: right;
+	& a
+		color: white;
+		text-decoration: none;
+		font-size: 1.7rem;
+		font-weight: 500;
+		box-sizing: border-box;
+
+
+.JottlyLogo
+	margin-top: 8%;
+	margin-left: 4.5%;
+
+.Tagline
+	margin-left: 5%;

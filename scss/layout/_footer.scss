@@ -1,0 +1,26 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FOOTER
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.FooterContent
+	text-align: center;
+
+.JottlyIcon
+	margin-top: 4%;
+
+.FooterNav
+	display: block;
+	& ul li
+		display: inline-block;
+		list-style-type: none;
+		& ul li a
+			color: $darktan;
+			text-decoration: none;
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+			font-size: 1.7rem;
+			font-weight: 800;
+			margin-top: 10%;
+			display: inline-block;
+			padding: 1.5rem;
+
+.Copyright
+	background-color: $red;
